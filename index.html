@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel = "stylesheet" href = "css/style.css">
+    <script src = "js/new.js"></script>
+    <title>Document</title>
+
+
+    
+</head>
+<body>
+<div class="container">
+<h1 class="header">Mathematical Operations</h1>
+<hr>
+
+    <!-- kms to miles conversion -->
+    <h3>conversion from kms to miles</h3>
+    <input type="number" placeholder="enter distance in kms" id="data" > kms
+    <button onclick="convert()"> convert </button> miles
+    <h1 id="res"></h1>
+    <hr>
+    <!-- celcius to farenheight conversion -->
+    <h3>conversion from celcius to fehrenheight</h3>
+    <input type="number" placeholder="enter temperature in celcius" id="celcius"> C
+    <button onclick="change()">Convert</button> F
+    <h1 id="changed"></h1>
+    <hr>
+    <!-- check the sign of number -->
+    <h3>check the sign of number</h3>
+    <input type="number" placeholder="enter any number" id="number"> Number
+    <button onclick="check()"> check </button> Sign
+    <h1 id="checked"></h1>
+    <hr>
+    <!-- generating random numbers -->
+    <h3>generating random numbers<br>
+    This Math.random frunction is basically used for generating otps.</h3>
+    <button onclick="random()">Get Random Numbers</button>
+    <h1 id="generated"></h1>
+    <hr>
+    <!-- odd or even  -->
+    <h3>check whether the number is odd or even
+        <br>can be checked using ternary operator also(var result = x%2 == 0 ? "even" : "odd";)
+    </h3>
+    <input type="number" placeholder="enter any number" id="num">Number
+    <button onclick="checkoddeven()"> check </button> odd/even 
+    <h1 id="oddeven"></h1>
+    <hr>
+    <!-- check whether the number is a prime number  -->
+    <h3>check whether the number is a prime number or not</h3>
+    <input type="number" placeholder="enter any number" id="primenumber">Number
+    <button onclick="checkprime()"> check </button> Is it prime?
+    <h1 id ="prime"></h1>
+    <hr>
+    <!-- print any table -->
+    <h3>write table of any number</h3>
+    Table of <input type="number" placeholder="enter any number" id="tableof">
+    <button onclick="table()">Click me</button>
+    <div id="displaytable"></div>
+    <hr>
+    <h5>...done...</h5>
+    
+
+    
+
+
+
+
+
+
+
+</div>    
+    
+</body>
+</html>

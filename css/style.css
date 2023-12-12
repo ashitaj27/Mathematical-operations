@@ -1,0 +1,31 @@
+body{
+    background-color: darkgrey;
+}
+
+h3{
+    color: bisque;
+    background-color: brown;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 100;
+
+}
+button{
+    margin-left: 20px;
+    padding: 0px 20px;
+    font-weight: bold;
+}
+.header{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: solid;
+    font-weight: bolder;
+}
+h5{
+    text-align: center;
+}
+#displaytable{
+    min-height: 200px;
+    margin-top: 10px;
+    background-color: aliceblue;
+}
